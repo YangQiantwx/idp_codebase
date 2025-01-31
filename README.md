@@ -93,7 +93,7 @@ python pose/train.py \
   --batch_size 32 \
   --lr 1e-3 \
   --num_workers 16 \
-  --checkpoints_dir /home/exouser/Desktop/idp_codebase/pose/checkpoints
+  --checkpoints_dir /home/exouser/Desktop/ipd_codebase/pose/checkpoints
 ```
 
 ### Notes
@@ -102,6 +102,6 @@ python pose/train.py \
 - Update `yolo/configs/data_obj_11.yaml` with the correct dataset paths.
 - If encountering module import errors, try:
   ```bash
-  python -m idp_codebase.pose.train ...
+  python -m ipd_codebase.pose.train ...
   ```
   or add `__init__.py` files where necessary.
